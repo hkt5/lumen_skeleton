@@ -1,5 +1,4 @@
-FROM php:7.4
-
+FROM php:8.1
 RUN docker-php-ext-install pdo_mysql
 
 WORKDIR /var/www/html/
